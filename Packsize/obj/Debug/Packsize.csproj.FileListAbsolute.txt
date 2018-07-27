@@ -1,0 +1,10 @@
+C:\Users\gama\source\repos\Packsize\Packsize\bin\Debug\Packsize.exe.config
+C:\Users\gama\source\repos\Packsize\Packsize\bin\Debug\Packsize.exe
+C:\Users\gama\source\repos\Packsize\Packsize\bin\Debug\Packsize.pdb
+C:\Users\gama\source\repos\Packsize\Packsize\bin\Debug\Newtonsoft.Json.dll
+C:\Users\gama\source\repos\Packsize\Packsize\bin\Debug\Newtonsoft.Json.xml
+C:\Users\gama\source\repos\Packsize\Packsize\obj\Debug\Packsize.csprojAssemblyReference.cache
+C:\Users\gama\source\repos\Packsize\Packsize\obj\Debug\Packsize.csproj.CoreCompileInputs.cache
+C:\Users\gama\source\repos\Packsize\Packsize\obj\Debug\Packsize.csproj.CopyComplete
+C:\Users\gama\source\repos\Packsize\Packsize\obj\Debug\Packsize.exe
+C:\Users\gama\source\repos\Packsize\Packsize\obj\Debug\Packsize.pdb

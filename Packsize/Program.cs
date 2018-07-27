@@ -12,9 +12,24 @@ namespace Packsize
     {
         static void Main(string[] args)
         {
+            List<string> instructionList = new List<string>();
             StreamReader sr = new StreamReader("input.txt");
             List<Instruction> instructions = JsonConvert.DeserializeObject<List<Instruction>>(sr.ReadToEnd());
             sr.Close();
+
+            instructionList = ExecuteInstruction(instructions[0]);
+
+        }
+
+        static List<string> ExecuteInstruction (Instruction instruction)
+        {
+            List<string> returnVal = new List<string>();
+            returnVal.Add(string.Format("Move cross-head to {0}", instruction.startingCoordinate["X"]));
+            returnVal.Add("Lower cross-head knife");
+            returnVal.Add(string.Format("Move cross-head to {0}", instruction.length.ToString()));
+            returnVal.Add("Raise cross-head knife");
+            return returnVal;
+
         }
     }
 
